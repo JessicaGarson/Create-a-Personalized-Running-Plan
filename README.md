@@ -28,7 +28,19 @@ This repository contains a simple code sample, creating a four-week plan to run 
 
 ## Step 1: Get your data
 
+### Apple Health data
+This example uses an XML file that contains Apple Health data. You can obtain an XML file using the method described [in this article](https://support.apple.com/guide/iphone/share-your-health-data-iph5ede58c3d/ios).
+
+### Andriod and Samsung health data
+Similar data is available for [Android devices](https://developer.android.com/health-and-fitness/guides/health-connect) and [Samsung devices](https://developer.samsung.com/health/blog/en/accessing-samsung-health-data-through-health-connect), but additional processing may be needed here.
+
+### Sample data
+You can also find a sample data set in this repository as [sample_data.xml](sample_data.xml).
+
+
 ## Step 2: Getting your data into Elasticsearch
+
+
 
 ## Step 3: Generating your running plan
 
