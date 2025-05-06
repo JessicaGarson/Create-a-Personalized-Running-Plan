@@ -26,6 +26,13 @@ This repository contains a simple code sample, creating a four-week plan to run 
     setx OPENAI_API_KEY "your_api_key"
     ```
 
+- You will also need to clone this repository: 
+
+    ```
+    git clone https://github.com/JessicaGarson/Create-a-Personalized-Running-Plan.git
+    cd Create-a-Personalized-Running-Plan
+    ```
+
 ## Step 1: Get your data
 
 ### Apple Health data
@@ -39,8 +46,11 @@ You can also find a sample data set in this repository as [sample_data.xml](samp
 
 
 ## Step 2: Getting your data into Elasticsearch
-
-
+After you've obtained your dataset, you can run the Jupyter notebook [`parse_data.ipynb`](parse_data.ipynb).
 
 ## Step 3: Generating your running plan
+You can generate a markdown file that contains a 4-week running plan by running the following command:
 
+```
+python plan.py
+```
