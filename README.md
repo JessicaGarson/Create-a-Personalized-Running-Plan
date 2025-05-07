@@ -9,7 +9,7 @@ This repository contains a simple code sample, creating a four-week plan to run 
 - Install the required packages:
 
     ```
-    pip install elasticsearch agno
+    pip install elasticsearch agno notion-client
     ```
 - You will want to configure an environment variable for your OpenAI API Key, which you can find on the API keys page in [OpenAI's developer portal](https://platform.openai.com/api-keys).
 
@@ -46,7 +46,7 @@ You can also find a sample data set in this repository as [sample_data.xml](samp
 
 
 ## Step 2: Getting your data into Elasticsearch
-After you've obtained your dataset, you can run the Jupyter notebook [`parse_data.ipynb`](parse_data.ipynb).
+After you've obtained your dataset, you can run the Jupyter notebook [parse_data.ipynb](parse_data.ipynb).
 
 ## Step 3: Generating your running plan
 You can generate a markdown file that contains a 4-week running plan by running the following command:
@@ -54,3 +54,6 @@ You can generate a markdown file that contains a 4-week running plan by running 
 ```
 python plan.py
 ```
+
+## Step 4: Sending your running plan to Notion
+You can use the Jupyter notebook [notion.ipynb](notion.ipynb) to send your running plan to Notion for activity tracking based on your plan.
