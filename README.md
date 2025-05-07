@@ -1,6 +1,6 @@
 # Create a personalized running plan with Elasticsearch and Agno
 
-This repository contains a simple code sample, creating a four-week plan to run a faster 5k. The example uses Elasticsearch to store your fitness data and [Ango](https://github.com/agno-agi/agno) to generate a fitness plan.  
+This repository contains a simple code sample, creating a four-week plan to run a faster 5k. The example uses Elasticsearch to store your fitness data and [Ango](https://github.com/agno-agi/agno) to generate a fitness plan. To monitor your progress, you can send your plan to Notion.
 
 ## Prerequsites
 
@@ -56,4 +56,4 @@ python plan.py
 ```
 
 ## Step 4: Sending your running plan to Notion
-You can use the Jupyter notebook [notion.ipynb](notion.ipynb) to send your running plan to Notion for activity tracking based on your plan.
+You can use the Jupyter notebook [Notion.ipynb](Notion.ipynb) to send your running plan to Notion for activity tracking based on your plan. To learn more about working with the Notion API, be sure to check out their [documentation on the subject](https://developers.notion.com/reference/intro) as well as the [Python library](https://pypi.org/project/notion-client/) used in this example.
