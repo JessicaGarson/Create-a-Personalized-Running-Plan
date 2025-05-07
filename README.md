@@ -56,4 +56,4 @@ python plan.py
 ```
 
 ## Step 4: Sending your running plan to Notion
-You can use the Jupyter notebook [Notion.ipynb](Notion.ipynb) to send your running plan to Notion for activity tracking based on your plan. To learn more about working with the Notion API, be sure to check out their [documentation on the subject](https://developers.notion.com/reference/intro) as well as the [Python library](https://pypi.org/project/notion-client/) used in this example.
+You can use the Jupyter notebook [Notion.ipynb](notion.ipynb) to send your running plan to Notion for activity tracking based on your plan. To learn more about working with the Notion API, be sure to check out their [documentation on the subject](https://developers.notion.com/reference/intro) as well as the [Python library](https://pypi.org/project/notion-client/) used in this example.
