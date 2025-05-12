@@ -25,7 +25,7 @@ This repository contains a simple code sample, creating a four-week plan to run 
     ```
     setx OPENAI_API_KEY "your_api_key"
     ```
-
+- If you send your fitness plan to Notion, you need an [access token](https://developers.notion.com/docs/authorization) for Notion and the [parent page ID](https://developers.notion.com/docs/working-with-page-content).
 - You will also need to clone this repository: 
 
     ```
