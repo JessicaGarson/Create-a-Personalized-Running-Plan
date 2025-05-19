@@ -2,7 +2,7 @@
 
 This repository contains a simple code sample, creating a four-week plan to run a faster 5k. The example uses Elasticsearch to store your fitness data and [Ango](https://github.com/agno-agi/agno) to generate a fitness plan. To monitor your progress, you can send your plan to Notion.
 
-## Prerequsites
+## Prerequisites
 
 - The version of Python that is used is Python 3.12.1 but you can use any version of Python higher than 3.9.
 - This demo uses Elasticsearch version 8.18, but you can use any version of Elasticsearch that is higher than 8.0.
