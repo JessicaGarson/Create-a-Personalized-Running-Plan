@@ -9,9 +9,6 @@ class SimpleWorkoutKnowledge:
         self.es = es_client
         self.index_name = index_name
 
-    def load(self):
-        pass
-
     def query(self, query_text):
         query_body = {
             "_source": ["workout_type", "start_time", "distance_km"],
